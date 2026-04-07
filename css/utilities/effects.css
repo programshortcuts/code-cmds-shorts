@@ -1,0 +1,30 @@
+.side-bar a:active,
+.side-bar a:focus {
+    background-color: lightblue;
+    font-weight: 999;
+    margin-left: 3%;
+    transition: all 200ms;
+    color: black;
+    outline: none;
+    
+    border: 1px solid black !important;
+    border: none;
+    font-style: bold;
+    padding: 3% 2% !important;
+}
+.side-bar-ul-container>ul>li>a>sub {
+    transform: translate(0, -20%);
+}
+#mainContent *:focus *,
+#mainContent *:focus {
+    /* color: black !important; */
+    box-shadow:  none;
+    text-shadow: none;
+
+}
+/* body.dark-mode #mainContent .page-container *:focus */
+.dark-mode .topic header h3 a,.main-landing-page h4 a {
+    /* color: white; */
+    /* background-color: var(--font-primary-db) !important; */
+
+}

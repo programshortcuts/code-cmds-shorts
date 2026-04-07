@@ -1,0 +1,37 @@
+.b {color: blue;}
+.r {color: red;}
+.m {color: magenta;}
+:root {
+    --clr-txt-sidebar: black
+}
+body{
+    /* background-color: rgba(79, 91, 90, 0.327); */
+    background-color: rgba(45, 47, 46, 0.422);
+}
+body.letter-focus-nav{
+
+    background: rgb(93, 104, 125);
+}
+.code-container{
+    background-color: whitesmoke;
+}
+.side-bar a,
+.side-bar a:visited {
+    color: var(--clr-txt-sidebar);
+}
+ #mainContent header a,
+ .page-container h2 a,
+ #mainTopicsContainer .topic .topic-title,
+ #mainTopicsContainer .topic .snip-title{
+    color: black;
+}
+#mainContent header a,
+#mainContent header a:visited,
+.page-container h2 a,
+.page-container h2 a:visited{
+    color: black;
+}
+.popup-btn,
+#darkModeBtn {
+    opacity: .5;
+}

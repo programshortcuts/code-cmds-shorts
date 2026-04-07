@@ -1,0 +1,19 @@
+.page-wrapper>#mainContent >  header{
+    /* border-bottom: 1px solid black; */
+
+}
+.page-wrapper>.side-bar {
+    border-right: 1px solid black;
+}
+.topics-container{
+    border: 1px solid blue;
+    
+    .topic .topic-snips > .snip {
+        
+        border:  1px solid black;
+    }
+}
+.code-container {
+    border: 1px solid black;
+    border-radius: 4px;
+}

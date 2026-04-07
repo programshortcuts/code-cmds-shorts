@@ -1,0 +1,40 @@
+@media screen and (max-width:600px){
+    :root {
+        --sidebar-width: 20% !important;
+    }
+    .main-content > header {
+        font-size: 50%;
+    }
+    .side-bar header .page-links-container{
+    }
+    .side-bar-topics li {
+        font-size: 80%;
+        /* margin-top: 100%; */
+    }
+    .side-bar-ul-container>.side-bar-topics {
+        margin-top: 50% !important;
+    }
+    #sideBarBtn {
+        bottom: 5% !important;
+        /* font-size: 100% !important; */
+    }
+    .code-container {
+        max-width: 95%!important;
+    }
+    .main-content{
+        padding-top: 5%;
+    }
+    .page-container {
+        padding-top: 3%;
+    }
+    .snip .code-container {
+        margin-left: .24% !important;
+    }
+
+}
+@media screen and (max-width:520px){
+    .snip > header {
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+}
