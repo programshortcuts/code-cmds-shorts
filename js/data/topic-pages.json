@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "javascript": {
+      "title": "JavaScript",
+      "topics": [
+        {
+          "title": "Keyboard Navigation",
+          "id": "keyboardNavigation",
+          "doubleTapNote": "**double tap on topic-titles should make it so it take whole main-landing-page",
+          "snips": [
+            {
+              "title": "keyboard-nav.js",
+              "sub": "BEST VERSION YET",
+              "codeId": "keyboardNavScript",
+              "code": "// keyboard-nav.js\nlet lastLetterPressed = null\nexport function keyboardNav({ e, mainContentEls }) {\n    /* code here */\n}"
+            },
+            {
+              "title": "letter-focus.js",
+              "sub": "find & add good one",
+              "codeId": "letterFocusScript",
+              "code": "Add Good letter focus here"
+            }
+          ]
+        },
+        {
+          "title": "drop-downs",
+          "id": "dropDowns",
+          "snips": [
+            {
+              "title": "drop-down.js",
+              "sub": "not the best",
+              "codeId": "dropDownScript",
+              "code": "// drop-down.js code..."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
